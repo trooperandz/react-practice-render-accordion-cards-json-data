@@ -1,0 +1,9 @@
+.load-container {
+  margin: 15rem auto 4rem auto;
+  border-bottom: 1px solid $color-light-gray;
+
+  &__heading {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+}

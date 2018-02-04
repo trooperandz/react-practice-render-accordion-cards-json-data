@@ -4,6 +4,7 @@ import FeatureList from '../components/FeatureList';
 import Description from '../components/Description';
 import FeatureIcon from '../components/FeatureIcon';
 
+// Build the bottom half of the card
 const CardSecondary = (props) => {
   const { isCardOpen } = props;
 

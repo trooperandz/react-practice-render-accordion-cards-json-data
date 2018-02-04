@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Build the sort icon, which waits patiently at the bottom of each card
 const SortChevron = (props) => {
   const {
     onCardRevealChange,

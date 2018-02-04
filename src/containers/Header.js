@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import SelectDropdown from '../components/SelectDropdown';
 
+// Build the top, main heading of the page; the sort dropdown lives here
 const Header = () => {
   return (
     <div className="row">

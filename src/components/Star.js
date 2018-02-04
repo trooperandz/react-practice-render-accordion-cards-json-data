@@ -1,5 +1,6 @@
 import React from 'react';
 
+// The star rating svg markup, used in the top left of each card
 const Star = (props) => {
   return (
     <div className="card-main__branding--rating-star">

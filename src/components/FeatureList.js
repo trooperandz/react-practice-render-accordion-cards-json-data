@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Build the bottom-left bulleted feature list for each card
 const FeatureList = () => {
   return (
     <div className="card-secondary__wrapper">

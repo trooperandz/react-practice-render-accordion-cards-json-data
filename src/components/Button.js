@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Build the card action buttons
 const Button = (props) => {
   const { buttonType } = props;
 

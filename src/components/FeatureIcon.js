@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Return the requested little gray feature icon depending on the props value
 const FeatureIcon = (props) => {
   const feature = props.feature;
   let featureIcon;

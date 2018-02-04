@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Build the bottom-right description area of each card
 const Description  = () => {
   return (
     <div className="card-secondary__wrapper">

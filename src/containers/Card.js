@@ -4,7 +4,8 @@ import CardMain from './CardMain';
 import CardSecondary from './CardSecondary';
 import SortChevron from '../components/SortChevron';
 
-class Card extends Component {
+// Create each card container; we need state for the accordion action
+export default class Card extends Component {
   constructor(props) {
     super(props);
 
@@ -32,5 +33,3 @@ class Card extends Component {
     );
   }
 }
-
-export default Card;

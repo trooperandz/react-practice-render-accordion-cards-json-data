@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Button from './Button';
 
+// Build the top-right cost/pricing info portion of each card
 const Pricing = () => {
   return (
     <div className="text-right">

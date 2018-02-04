@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Star from './Star';
 import FeatureIcon from './FeatureIcon';
 
+// Build the little gray feature icons for display in the top left portion of each card
 const Branding = () => {
   return (
     <div>
