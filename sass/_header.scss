@@ -1,0 +1,18 @@
+.header {
+
+  &__heading-wrapper {
+    display: table;
+    min-height: 7rem;
+  }
+
+  &__heading {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 400;
+    color: $color-text-black;
+  }
+
+  &__dropdown-wrapper {
+
+  }
+}

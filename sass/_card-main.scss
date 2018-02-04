@@ -1,0 +1,66 @@
+.card-main {
+
+  &__img {
+    display: inline-block;
+    height: 11rem;
+    transform: translateY(-$margin-xlarge);
+  }
+
+  &__branding {
+    display: inline-block;
+    margin-left: $margin-large;
+
+    &--heading {
+      margin-bottom: $margin-small;
+      color: $color-text-black;
+    }
+
+    &--rating {
+      display: inline-block;
+      transform: translateY(-1rem);
+
+      &-star {
+        display: inline;
+      }
+    }
+
+    &--features {
+      display: inline-block;
+      margin-left: $margin-medium;
+
+      &-icon {
+        display: inline;
+      }
+    }
+  }
+
+  &__pricing {
+    margin-bottom: .8rem;
+
+    &--verified {
+      display: inline-block;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #5c65ef;
+      transform: translateY(-.9rem);
+    }
+
+    &--cost {
+      display: inline-block;
+      font-size: 4.5rem;
+      padding: 0 1rem;
+      color: $color-text-black;
+    }
+
+    &--timeline {
+      display: inline-block;
+      font-size: 2.4rem;
+      color: $color-text-gray;
+      transform: translateY(-.7rem);
+    }
+  }
+
+  &__cta {
+
+  }
+}

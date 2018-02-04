@@ -1,0 +1,15 @@
+.select-dropdown {
+
+  &__label {
+    font-size: 2rem;
+    color: $color-text-gray;
+    padding: 0 1.2rem;
+    font-weight: 400;
+  }
+
+  &__select {
+    width: 15rem;
+    height: 4rem;
+    margin: 1.5rem 0;
+  }
+}

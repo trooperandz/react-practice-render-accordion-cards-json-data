@@ -1,0 +1,54 @@
+.card-secondary {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s ease-out;
+
+  &--open {
+    max-height: 400px;
+  }
+
+  &__wrapper {
+    margin: 1rem 2.5rem
+  }
+
+  &__header {
+    position: relative;
+    border-bottom: 1px solid $color-border-gray;
+    margin-bottom: $margin-small;
+
+    &--icon {
+      position: absolute;
+      font-size: 1.7rem;
+      top: .5rem;
+      color: $color-dark-gray;
+    }
+
+    &--heading {
+      margin-left: $margin-medium;
+      margin-bottom: $margin-small;
+      color: $color-dark-gray;
+      font-weight: 400;
+    }
+  }
+
+  &__feature-list {
+    font-size: 1.8rem;
+    color: $color-text-gray;
+    padding-left: 1.5rem;
+
+    &--item {
+      padding: .4rem 0;
+    }
+  }
+
+  &__description {
+    font-size: 1.8rem;
+    color: $color-text-gray;
+  }
+
+  &__disclaimer {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: $color-text-gray;
+  }
+}
