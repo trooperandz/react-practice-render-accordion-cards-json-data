@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 
 // Build the card action buttons
 const Button = (props) => {
-  const { buttonType } = props;
+  const { buttonType, cardData } = props;
 
-  let buttonText;
+  let buttonText = cardData.action.link_text || cardData.action.link_copy;
   let buttonClass;
   let iconClass;
+  const rateClass = (cardData.rate ? '' : 'cta--norate');
 
-  switch(buttonType) {
-    case 'buy':
+  switch(buttonText) {
+    case 'Buy Online Now':
       buttonText = 'Buy Now';
       buttonClass = 'cta__buy';
       iconClass = 'fa-bolt';
       break;
-    case 'quote':
+    case 'Get Quote':
       buttonText = 'Get Quote';
       buttonClass = 'cta__quote';
       iconClass = 'fa-arrow-down';
@@ -23,7 +24,7 @@ const Button = (props) => {
 
   return (
     <div className="card-main__cta">
-      <button className={`cta ${buttonClass}`}>
+      <button className={`cta ${buttonClass} ${rateClass}`} >
         <i className={`fa ${iconClass} cta__icon}`} aria-hidden="true"></i> &nbsp;{buttonText}
       </button>
     </div>

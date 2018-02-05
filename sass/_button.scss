@@ -37,4 +37,9 @@
   &:active, &:focus {
     outline: none;
   }
+
+  // Buttons that aren't accompanied by a rate need additional margin for centering in container
+  &--norate {
+    margin-top: 4rem;
+  }
 }

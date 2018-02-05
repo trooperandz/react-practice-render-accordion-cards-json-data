@@ -6,7 +6,7 @@ import FeatureIcon from '../components/FeatureIcon';
 
 // Build the bottom half of the card
 const CardSecondary = (props) => {
-  const { isCardOpen } = props;
+  const { isCardOpen, cardData } = props;
 
   const openClass = (isCardOpen ? 'card-secondary--open' : '');
   console.log('CardSecondary props: ', props);
@@ -14,10 +14,10 @@ const CardSecondary = (props) => {
     <div className="row">
       <div className={`card-secondary ${openClass}`}>
         <div className="col-sm-6">
-          <FeatureList />
+          <FeatureList cardData={cardData} />
         </div>
         <div className="col-sm-6">
-          <Description />
+          <Description cardData={cardData} />
         </div>
       </div>
     </div>

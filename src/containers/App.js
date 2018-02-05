@@ -19,10 +19,10 @@ export default class App extends Component {
     this.onLoadClick = this. onLoadClick.bind(this);
   }
 
-  // Simulate an asynchronous data load when the button is clicked
+  // Simulate an asynchronous data load when the lading page load button is clicked
   onLoadClick() {
     this.setState({
-      isLoadButtonClicked: true
+      isLoadButtonClicked: true // Trigger the loading spinner
     });
 
     setTimeout(() => {
@@ -43,15 +43,19 @@ export default class App extends Component {
     // Then set cards equal to default value of {} if undefined to ensure no 'undefined' destructuring error!
     const { cardItems: {carrier_cards: cards} = {} } = this.state;
 
-    if (cards && cards.length) return cards.map(card => <Card />); // Implicit return
+    if (cards && cards.length) {
+      return cards.map((card) => {
+        return <Card cardData={card} />
+      });
+    }
 
     return null;
   }
 
+  // Show the main landing page with load button by default; after cards are loaded, show cards
   render() {
     const { isLoadButtonClicked, cardItems } = this.state;
 
-    // Show the main landing page with load button first; after cards are loaded, show cards
     if (cardItems) {
       return (
         <div className="container">

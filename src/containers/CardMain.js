@@ -4,14 +4,16 @@ import Branding from '../components/Branding';
 import Pricing from '../components/Pricing';
 
 // Build the top half of the card
-const CardMain = () => {
+const CardMain = (props) => {
+  const { cardData } = props;
+
   return (
     <div className="row">
       <div className="col-sm-6">
-        <Branding />
+        <Branding cardData={cardData} />
       </div>
       <div className="col-sm-6">
-        <Pricing />
+        <Pricing cardData={cardData} />
       </div>
     </div>
   );

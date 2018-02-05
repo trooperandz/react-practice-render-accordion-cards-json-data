@@ -7,7 +7,7 @@
       "name": "Elephant",
       "tagline": "Austin, TX drivers could save up to 25% with Elephant®",
       "features_html": [
-        "<ul><li>Accidents happen, save with NO-reset guaranteed Diminishing Deductibles</li><li>Bundle Auto and Home or Renter for extra savings</li><li>Superior claims service 24/7 nationwide with local repair network</li><li>Manage your policy easily online</li></ul>"
+        "<ul class='card-secondary__featurelist'><li class='card-secondary__featurelist-item'>Accidents happen, save with NO-reset guaranteed Diminishing Deductibles</li><li class='card-secondary__featurelist-item'>Bundle Auto and Home or Renter for extra savings</li><li class='card-secondary__featurelist-item'>Superior claims service 24/7 nationwide with local repair network</li><li class='card-secondary__featurelist-item'>Manage your policy easily online</li></ul>"
       ],
       "card_order_best_match": 2,
       "card_order_price": 0,
@@ -27,7 +27,7 @@
       "name": "Allstate",
       "tagline": "Allstate® Auto Insurance",
       "features_html": [
-        "<ul><li>Safe Drivers Can Save 45% or More!</li><li>Are You Overpaying?</li><li>Take Advantage of our Discounts in Texas</li><li>Get a Free online Auto Insurance Quote in Minutes</li></ul>"
+        "<ul class='card-secondary__featurelist'><li class='card-secondary__featurelist-item'>Safe Drivers Can Save 45% or More!</li><li class='card-secondary__featurelist-item'>Are You Overpaying?</li><li class='card-secondary__featurelist-item'>Take Advantage of our Discounts in Texas</li><li class='card-secondary__featurelist-item'>Get a Free online Auto Insurance Quote in Minutes</li></ul>"
       ],
       "card_order_best_match": 4,
       "card_order_price": 1,
@@ -98,7 +98,7 @@
       "name": "Esurance",
       "tagline": "Get Affordable, Reliable Car Insurance from Esurance",
       "features_html": [
-        "<ul><li>Get a quote in just a few minutes.</li><li>Drivers could save big by switching.</li><li>You could qualify for multiple discounts.</li><li>Reach our claims experts 24/7 — located in the U.S.A.</li></ul>"
+        "<ul class='card-secondary__featurelist'><li class='card-secondary__featurelist-item'>Get a quote in just a few minutes.</li><li class='card-secondary__featurelist-item'>Drivers could save big by switching.</li><li class='card-secondary__featurelist-item'>You could qualify for multiple discounts.</li><li class='card-secondary__featurelist-item'>Reach our claims experts 24/7 — located in the U.S.A.</li></ul>"
       ],
       "card_order_best_match": 7,
       "card_order_price": 3,

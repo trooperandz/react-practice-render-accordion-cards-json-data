@@ -140,22 +140,25 @@ h1, h2, h3, h4, h5 {
     position: relative;
     border-bottom: 1px solid #DBDBDB;
     margin-bottom: 1.5rem; }
-    .card-secondary__header--icon {
+    .card-secondary__header-icon {
       position: absolute;
       font-size: 1.7rem;
       top: .5rem;
       color: #5f6263; }
-    .card-secondary__header--heading {
+    .card-secondary__header-heading {
       margin-left: 2.5rem;
       margin-bottom: 1.5rem;
       color: #5f6263;
       font-weight: 400; }
-  .card-secondary__feature-list {
+  .card-secondary__featurelist {
     font-size: 1.8rem;
     color: #959595;
     padding-left: 1.5rem; }
-    .card-secondary__feature-list--item {
+    .card-secondary__featurelist-item {
       padding: .4rem 0; }
+      .card-secondary__featurelist-item--floated {
+        float: left;
+        width: 50%; }
   .card-secondary__description {
     font-size: 1.8rem;
     color: #959595; }
@@ -188,6 +191,8 @@ h1, h2, h3, h4, h5 {
     opacity: .85; }
   .cta:active, .cta:focus {
     outline: none; }
+  .cta--norate {
+    margin-top: 4rem; }
 
 .header__heading-wrapper {
   display: table;

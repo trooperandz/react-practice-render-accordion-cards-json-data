@@ -16,14 +16,14 @@
     border-bottom: 1px solid $color-border-gray;
     margin-bottom: $margin-small;
 
-    &--icon {
+    &-icon {
       position: absolute;
       font-size: 1.7rem;
       top: .5rem;
       color: $color-dark-gray;
     }
 
-    &--heading {
+    &-heading {
       margin-left: $margin-medium;
       margin-bottom: $margin-small;
       color: $color-dark-gray;
@@ -31,13 +31,20 @@
     }
   }
 
-  &__feature-list {
+  // Forced these to be BEM-ish by giving the original JSON data class names.
+  // Otherwise would have been ul li etc.
+  &__featurelist {
     font-size: 1.8rem;
     color: $color-text-gray;
     padding-left: 1.5rem;
 
-    &--item {
+    &-item {
       padding: .4rem 0;
+
+      &--floated {
+        float: left;
+        width: 50%;
+      }
     }
   }
 

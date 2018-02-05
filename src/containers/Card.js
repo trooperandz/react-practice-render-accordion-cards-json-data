@@ -12,7 +12,7 @@ export default class Card extends Component {
     this.state = {
       isCardOpen: false,
     }
-
+    console.log('constructor in Card ran.');
     this.onCardRevealChange = this.onCardRevealChange.bind(this);
   }
 
@@ -24,10 +24,12 @@ export default class Card extends Component {
   }
 
   render() {
+    const { cardData } = this.props;
+    console.log('cardData in Card: ', cardData);
     return (
       <div className="card">
-        <CardMain />
-        <CardSecondary isCardOpen={this.state.isCardOpen} />
+        <CardMain cardData={cardData} />
+        <CardSecondary isCardOpen={this.state.isCardOpen} cardData={cardData} />
         <SortChevron onCardRevealChange={this.onCardRevealChange} isCardOpen={this.state.isCardOpen} />
       </div>
     );
